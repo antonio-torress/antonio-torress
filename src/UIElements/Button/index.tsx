@@ -56,8 +56,6 @@ const StyledImage = styled.img`
 `;
 
 const Button = (props:ButtonProps): JSX.Element => {
-  console.log(props);
-
   if (props.href) {
     return <a href={props.href}>{props.children}</a>;
   }
@@ -67,7 +65,7 @@ const Button = (props:ButtonProps): JSX.Element => {
   }
 
   return (
-    <StyledButton type={props.type} onClick={props.onClick} disabled={props.disabled}>
+    <StyledButton {...props} >
       {props.icon && <StyledImage src={props.icon} alt="paper-clip" width="21" height="21" />}
       {props.children}
     </StyledButton>
