@@ -1,6 +1,6 @@
 {
   "name": "@antonio-torress/antonio-torress",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "A Package to hold all shared components for Vendition Apps",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
