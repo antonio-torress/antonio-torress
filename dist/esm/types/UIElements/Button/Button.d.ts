@@ -1,5 +1,4 @@
-import { FC } from "react";
+/// <reference types="react" />
 import { ButtonProps } from "./Button.types";
-import "./Button.css";
-declare const Button: FC<ButtonProps>;
+declare const Button: (props: ButtonProps) => JSX.Element;
 export default Button;

@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 import { ButtonProps } from "./Button.types";
-import "./Button.css";
 
 const StyledButton = styled.button<ButtonProps>`
   font: inherit;
